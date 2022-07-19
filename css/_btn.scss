@@ -1,0 +1,27 @@
+.btn {
+    display: inline-block;
+    padding: 11px 28px;
+    background-color: $color-primary;
+    border-radius: 30px;
+    max-width: max-content;
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 700;
+    @media(max-width: 767px) {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 8px 14px;
+    }
+}
+.btn--secondary {
+    background-color: #FFDE5A;
+    color: #3B4872;
+    padding: 12px 49px;
+    @media(max-width: 767px) {
+        padding: 10px 23px;
+        font-size: 16px;
+        line-height: 1;
+    }
+}

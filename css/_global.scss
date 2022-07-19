@@ -1,0 +1,44 @@
+*, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Geometria';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    overflow: auto;
+    &.scroll {
+        overflow: hidden;
+    }
+}
+
+a {
+    color: #010101;
+    text-decoration: none;
+}
+.container {
+    max-width: 1190px;
+    padding: 0 40px;
+    margin: 0 auto;
+    @media(max-width:767px) {
+        padding: 0 16px;
+    }
+}
+main {
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    @media(max-width: 767px) {
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
